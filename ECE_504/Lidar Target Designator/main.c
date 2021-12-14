@@ -9,6 +9,8 @@
   * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
+  * Author: Alex Beaulier beaulier@pdx.edu
+  *
   * This software component is licensed by ST under BSD 3-Clause license,
   * the "License"; You may not use this file except in compliance with the
   * License. You may obtain a copy of the License at:
@@ -196,15 +198,15 @@ int main(void)
 	char smNmbr[3];
 
 
-	// The Equator has a latitude of 0°,
-	//the North Pole has a latitude of 90° North (written 90° N or +90°),
-	//and the South Pole has a latitude of 90° South (written 90° S or -90°)
+	// The Equator has a latitude of 0ï¿½,
+	//the North Pole has a latitude of 90ï¿½ North (written 90ï¿½ N or +90ï¿½),
+	//and the South Pole has a latitude of 90ï¿½ South (written 90ï¿½ S or -90ï¿½)
 	char *latRaw;
 	char latDg[3];
 	char latMS[8];
 	char *hemNS;
 
-	// longitude in degrees (0° at the Prime Meridian to +180° eastward and -180° westward)
+	// longitude in degrees (0ï¿½ at the Prime Meridian to +180ï¿½ eastward and -180ï¿½ westward)
 	// that is why 3
 	char *lonRaw;
 	char lonDg[4];
@@ -290,9 +292,9 @@ while (1){
                             			 , - Field delimiter
 
                             			 1. $GNGLL log header
-                            			 2. Latitude (Ddmm.mm) [The Equator has a latitude of 0°, the North Pole has a latitude of 90° North (written 90° N or +90°)]
+                            			 2. Latitude (Ddmm.mm) [The Equator has a latitude of 0ï¿½, the North Pole has a latitude of 90ï¿½ North (written 90ï¿½ N or +90ï¿½)]
                             			 3. Latitude direction (N = North, S = South)
-                            			 4. Longitude (DDDmm.mm) [0° at the Prime Meridian to +180° eastward and -180° westward]
+                            			 4. Longitude (DDDmm.mm) [0ï¿½ at the Prime Meridian to +180ï¿½ eastward and -180ï¿½ westward]
                             			 5. Longitude direction (E = East, W = West)
                             			 6. UTC time status of position (hours/minutes/seconds/decimal seconds) hhmmss
                             			 7. Data status: A = Data valid, V = Data invalid

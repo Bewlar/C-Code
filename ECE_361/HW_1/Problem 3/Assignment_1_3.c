@@ -6,7 +6,7 @@
 //void split_date(int day_of_year, int year, int *month, int *day);
 //day_of_year is an integer between 1 and 366, specifying a particular day within the year
 //designated by the parameter year. month and day point to variables in which the function will store
-//the equivalent month (1 – 12) and day within the month (1 – 31)
+//the equivalent month (1 ï¿½ 12) and day within the month (1 ï¿½ 31)
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,7 +14,7 @@ int doy, yr, mon, dom;
 int i;
 int currentmonth;
 
-int calendars[2][12] = { //Didn't know how to do structs before. Found calendar struct on http://www.learntosolveit.com/cprogramming/Ex_5.8_day_date.html
+int calendars[2][12] = { //Didn't know how to create structs before. Found calendar struct on http://www.learntosolveit.com/cprogramming/Ex_5.8_day_date.html
     {31,28,31,30,31,30,31,31,30,31,30,31},
     {31,29,31,30,31,30,31,31,30,31,30,31},
 };
@@ -80,16 +80,16 @@ int *find_largest(int a[], int n){
     printf("Largest value is: %d\n",largest);
     return (int *)largest;
 }
-//When passed an array a of length n, the function returns a pointer to array’s largest element.
+//When passed an array a of length n, the function returns a pointer to arrayï¿½s largest element.
 
 
 
 
 //c. [5] Having to check the return value of malloc() (or any other memory allocation function) each
 //time we call it can become annoying and monotonous.
-//Write a function called my_malloc(int n_bytes) that servers as a “wrapper” for malloc().
+//Write a function called my_malloc(int n_bytes) that servers as a ï¿½wrapperï¿½ for malloc().
 //When we call my_malloc() and ask it to allocate n_bytes, my_alloc() calls malloc(), ...
-//tests to make sure that malloc() doesn’t return a null pointer and then returns the pointer from malloc().
+//tests to make sure that malloc() doesnï¿½t return a null pointer and then returns the pointer from malloc().
 //Have my_malloc() print an error message and terminate the program if malloc() returns a null pointer.
 int my_malloc(int n_bytes){
 int *basepoint;
