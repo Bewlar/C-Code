@@ -1,0 +1,40 @@
+[2020-10-31 14:06.24]  ~/ece361f20/hw3/mls_app
+[rkravitz.DESKTOP-OR6PTN3] ➤ gcc -Wall -std=c99 -o test_MLStree  MLStree.c MLSapp_Helpers.c test_MLStree.c
+
+[2020-10-31 14:08.01]  ~/ece361f20/hw3/mls_app
+[rkravitz.DESKTOP-OR6PTN3] ➤ ./test_MLStree.exe
+Adding Portland Timbers
+
+Team Information for the Portland Timbers:
+        Conference: Western
+        Points per game (PPG):  1.75
+        Total points (PTS): 35
+        Number of games (GP): 20
+        Record (w-l-t): 10-10-5
+----------------------
+Adding Vancouver Whitecaps FC
+
+Team Information for the Vancouver Whitecaps FC:
+        Conference: Western
+        Points per game (PPG):  1.14
+        Total points (PTS): 24
+        Number of games (GP): 21
+        Record (w-l-t): 8-13-0
+----------------------
+Adding Seattle Sounders FC
+
+Team Information for the Seattle Sounders FC:
+        Conference: Western
+        Points per game (PPG):  1.84
+        Total points (PTS): 35
+        Number of games (GP): 19
+        Record (w-l-t): 10-4-5
+----------------------
+
+The current standings are:
+Western Conference:
+  #                                    Club      PTS   PPG   GP    W    L    T
+  1   x                 Seattle Sounders FC       35  1.84   19   10    4    5
+  2   x                    Portland Timbers       35  1.75   20   10   10    5
+  3                  Vancouver Whitecaps FC       24  1.14   21    8   13    0
+x - team has qualified for the playoffs

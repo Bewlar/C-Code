@@ -1,0 +1,89 @@
+     +--------------------------------------------------------------------+
+     ¦                • MobaXterm Personal Edition v20.3 •                ¦
+     ¦              (X server, SSH client and network tools)              ¦
+     ¦                                                                    ¦
+     ¦ ? Your computer drives are accessible through the /drives path     ¦
+     ¦ ? Your DISPLAY is set to 10.231.206.85:0.0                         ¦
+     ¦ ? When using SSH, your remote DISPLAY is automatically forwarded   ¦
+     ¦ ? Each command status is specified by a special symbol (? or ?)    ¦
+     ¦                                                                    ¦
+     ¦ • Important:                                                       ¦
+     ¦ This is MobaXterm Personal Edition. The Professional edition       ¦
+     ¦ allows you to customize MobaXterm for your company: you can add    ¦
+     ¦ your own logo, your parameters, your welcome message and generate  ¦
+     ¦ either an MSI installation package or a portable executable.       ¦
+     ¦ We can also modify MobaXterm or develop the plugins you need.      ¦
+     ¦ For more information: https://mobaxterm.mobatek.net/download.html  ¦
+     +--------------------------------------------------------------------+
+
+ ? 23/10/2020 ? ? 16:10.14 ? ? /home/mobaxterm ? ls
+Desktop         HW2Folder       LauncherFolder  MyDocuments
+                                                                               ?
+
+ ? 23/10/2020 ? ? 16:10.16 ? ? /home/mobaxterm ? cd HW2Folder
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder ? ? main ?
+ ? 23/10/2020 ? ? 16:10.21 ? ls
+Question1Code  Question2Code  README.md      docs           starter_code
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder ? ? main ?
+ ? 23/10/2020 ? ? 16:10.22 ? cd Question1code
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:10.25 ? whoami
+ajbea
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:10.32 ? gcc -Wall Q1.c Q1b.c -o Q1final
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:10.40 ? ./Q1final.exe
+Give quantity of integers as an integer value followed by other values separated by spaces:0 1 2 3 4 5
+
+Error, size doesn't match list length                                          ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:10.50 ? ./Q1final.exe
+Give quantity of integers as an integer value followed by other values separated by spaces:-4 1 2 3 4 5
+
+Error, size doesn't match list length                                          ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:11.00 ? ./Q1final.exe
+Give quantity of integers as an integer value followed by other values separated by spaces:5 1 2 3 4 5
+
+Original List:1 2 3 4 5
+Smallest Value:1
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:11.05 ? ./Q1final.exe
+Give quantity of integers as an integer value followed by other values separated by spaces:10 1 2 3 4 5 6 7 8 9 10
+
+Original List:1 2 3 4 5 6 7 8 9 10
+Smallest Value:1
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:11.16 ? ./Q1final.exe
+Give quantity of integers as an integer value followed by other values separated by spaces:5 1 2 3 4 -5
+
+Original List:1 2 3 4 -5
+Smallest Value:-5
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:11.22 ? ./Q1final.exe
+Give quantity of integers as an integer value followed by other values separated by spaces:5 5 4 3 2 -1
+
+Original List:5 4 3 2 -1
+Smallest Value:-1
+                                                                               ?
+
+ ? /home/mobaxterm/HW2Folder/Question1code ? ? main ?
+ ? 23/10/2020 ? ? 16:11.29 ?

@@ -1,0 +1,104 @@
+//PROBLEM 1 (a)
+#include <stdbool.h>
+#include <stdio.h>
+
+bool has_zero(int a[], int n)
+{
+int i;
+for (i = 0; i < n; i++) {   //Fixed syntax error of (,) after n. Replaced with colon //Note n could be replaced with a length of array function
+    printf("Loop %d \n",i+1);
+    if (a[i] == 0) {
+        return true; //Fixed case error. Original function returned 0 or 1 and exited loop
+        }
+    }
+return false;
+}
+
+//Debug code for Question 1.a
+int main()
+{
+    int i;
+    bool x;
+    int a[4] = {1,1,1,1};
+    x = has_zero(a,4);
+    printf("HasZero value is: %d\n",x);
+    for (i = 0; i < 4; i++) {
+        printf("a[%d] is %d \n",i,a[i]);
+    }
+}
+//End of debug code for Question 1.a
+//End of Q1.a
+
+b. [5] Indicate which of the following items SHOULD NOT be put into a C header (.h) file. Why not?
+    a) Function prototypes
+    Header files should have declarations(not definitions). These are the input definitions.
+    It depends on whether the declaration is in the .c file. If part of it needs to be private then it can just be included in the .c file.
+
+    b) Source code for functions
+    Header files should contain the source code unless you don't want others to have access to it.
+    Discussion with Rishitosh good coding practice is to place source code in the .c file and only prototypes into the .h file.
+
+    c) Macro definitions
+    One reference discussing .h files state header files contain C declarations and macro definitions.
+    However, macro definitions shouldn't be put into .h files due to unexpected occurences due to potentially ending up in someone elses code where they reference the same definition.
+    The term is called namespace pollution for the negative argument.
+    They can be used if header guards are in place or used in private scope.
+
+
+    d) Type definitions
+    These should go in the source code so it will depend upon whether you will want others to have access or not. Typically can go in .c file.
+
+    e) Variables
+    These should go in the source code so it will depend upon whether you will want others to have access or not. Typically can go in .c file.
+
+
+
+//Question C
+#include <stdio.h>
+
+int list[4];
+
+int sum(int a[], int n){
+
+    if (n == 0 ){
+        return a[0];
+    }
+    else{
+        return a[n]+sum(a, n-1);
+    }
+}
+
+int main(){
+    printf("enter four integers: ");
+    scanf("%d %d %d %d", &list[0],&list[1],&list[2],&list[3]);
+    printf("Their sum is: %d\n", sum(list,3));
+    return 0;
+}
+
+/*The function sum() is called for the first time by the main program.
+From the second time on, it is called by itself.
+How many times is sum() called altogether, including the call from main()?
+Explain your answer and/or show your work.
+*/
+
+//Answer
+/*
+After scanf, List[4] numbers, 3,2,6,4 with n = 3
+
+Main call to sum - a[3] = 4 + sum | n=3 | Call sum loop 1
+sum call sum - a[2] = 6 + sum | n=2     | Call sum loop 2
+sum call sum - a[1] = 2 + sum | n=1     | Call sum loop 3
+sum call sum - a[0] = 3 | n=0     | Sum loop 4, return up stack
+Returns value to loop 3
+Loop 3 = 2+3
+Return Loop 2
+Loop 2 = 5+6
+Return Loop 1
+Loop 1 = 11+4
+Return Main
+Value = 15
+
+In total sum is called 4 times.
+*/
+
+

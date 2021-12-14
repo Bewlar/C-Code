@@ -1,0 +1,118 @@
+     +--------------------------------------------------------------------+
+     ¦                • MobaXterm Personal Edition v20.3 •                ¦
+     ¦              (X server, SSH client and network tools)              ¦
+     ¦                                                                    ¦
+     ¦ ? Your computer drives are accessible through the /drives path     ¦
+     ¦ ? Your DISPLAY is set to 10.231.206.85:0.0                         ¦
+     ¦ ? When using SSH, your remote DISPLAY is automatically forwarded   ¦
+     ¦ ? Each command status is specified by a special symbol (? or ?)    ¦
+     ¦                                                                    ¦
+     ¦ • Important:                                                       ¦
+     ¦ This is MobaXterm Personal Edition. The Professional edition       ¦
+     ¦ allows you to customize MobaXterm for your company: you can add    ¦
+     ¦ your own logo, your parameters, your welcome message and generate  ¦
+     ¦ either an MSI installation package or a portable executable.       ¦
+     ¦ We can also modify MobaXterm or develop the plugins you need.      ¦
+     ¦ For more information: https://mobaxterm.mobatek.net/download.html  ¦
+     +--------------------------------------------------------------------+
+
+ ? 25/10/2020 ? ? 14:08.15 ? ? /home/mobaxterm ? whoami
+ajbea
+                                                                                           ?
+
+ ? 25/10/2020 ? ? 14:08.16 ? ? /home/mobaxterm ? gcc -Wall QueueADT_LL.c test_queueADT.c -o Q3.final
+gcc: error: QueueADT_LL.c: No such file or directory
+gcc: error: test_queueADT.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+                                                                                           ?
+
+ ? 25/10/2020 ? ? 14:08.18 ? ? /home/mobaxterm ? ls
+Desktop         HW2Folder       LauncherFolder  MyDocuments
+                                                                                           ?
+
+ ? 25/10/2020 ? ? 14:08.28 ? ? /home/mobaxterm ? cd hw2folder
+                                                                                           ?
+
+ ? 25/10/2020 ? ? 14:08.30 ? ? /home/mobaxterm/hw2folder ? ? main ? ls
+Question1Code  Question2Code  Question3Code  README.md      docs           starter_code
+                                                                                           ?
+
+ ? 25/10/2020 ? ? 14:08.31 ? ? /home/mobaxterm/hw2folder ? ? main ? cd Question3Code/
+                                                                                           ?
+
+ ? /home/mobaxterm/hw2folder/Question3Code ? ? main ?
+ ? 25/10/2020 ? ? 14:08.36 ? ls
+Q3.final         QueueADT_LL.h    test_queueADT.c
+QueueADT_LL.c    QueueADT_LL.o    test_queueADT.o
+                                                                                           ?
+
+ ? /home/mobaxterm/hw2folder/Question3Code ? ? main ?
+ ? 25/10/2020 ? ? 14:08.37 ? gcc -Wall QueueADT_LL.c test_queueADT.c -o Q3.final
+                                                                                           ?
+
+ ? /home/mobaxterm/hw2folder/Question3Code ? ? main ?
+ ? 25/10/2020 ? ? 14:08.41 ? ./Q3.final
+
+
+======STARTING QUEUE TESTS======
+
+Testqueue size 10
+Queue position[0] is: c
+Queue position[1] is: g
+Queue position[2] is: t
+Queue position[3] is: Y
+Queue position[4] is: H
+Queue position[5] is: X
+Queue position[6] is: r
+Queue position[7] is: m
+Queue position[8] is: n
+Queue position[9] is: y
+----List Queue Contents 1 Test Successful
+----Queue Full 1 Test Successful
+Front element is c
+Rear element is y
+----Dequeue 1 Test Successful
+----Queue Full 2 Test: Not full
+Testqueue size2 9
+
+Front element is g
+Rear element is y
+Empty the queue
+deQueued Element g
+Size is 8
+deQueued Element t
+Size is 7
+deQueued Element Y
+Size is 6
+deQueued Element H
+Size is 5
+deQueued Element X
+Size is 4
+deQueued Element r
+Size is 3
+deQueued Element m
+Size is 2
+deQueued Element n
+Size is 1
+deQueued Element y
+Size is 0
+Queue should be empty - nothing displayed
+Testqueue size3 0
+----Queue Empty Test3 Successful
+---Testing partial fills---
+   Adding p and Z to queue
+Queue position[0] is: p
+Queue position[1] is: Z
+Testqueue size5 2
+   Removing p
+Testqueue size6 1
+Queue position[1] is: Z
+   Adding ! to queue
+Queue position[1] is: Z
+Queue position[2] is: !
+----Queue Test Complete
+                                                                                           ?
+
+ ? /home/mobaxterm/hw2folder/Question3Code ? ? main ?
+ ? 25/10/2020 ? ? 14:08.47 ?

@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\ajbea\desktop\ece361f20_hw3_r1_0\starter_code\mlstree\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1604333149 source:c:\users\ajbea\desktop\ece361f20_hw3_r1_0\sample code\binarysearchtree.c
+	<stdio.h>
+	<stdlib.h>
+
+1605120256 source:c:\users\ajbea\desktop\ece361f20_hw3_r1_0\starter_code\mlsapp_helpers.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"MLSapp_Helpers.h"
+
+1605050952 c:\users\ajbea\desktop\ece361f20_hw3_r1_0\starter_code\mlsapp_helpers.h
+	<stdbool.h>
+	"MLStree.h"
+
+1605125199 c:\users\ajbea\desktop\ece361f20_hw3_r1_0\starter_code\mlstree.h
+	<stdbool.h>
+
+1605130057 source:c:\users\ajbea\desktop\ece361f20_hw3_r1_0\starter_code\mlstree.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MLStree.h"
+
+1605125600 source:c:\users\ajbea\desktop\ece361f20_hw3_r1_0\starter_code\test2_mlstree.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MLStree.h"
+	"MLSapp_Helpers.h"
+
+1605120256 source:c:\users\ajbea\documents\mobaxterm\home\homework3test\hw3-bewlar\starter_code\mlsapp_helpers.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"MLSapp_Helpers.h"
+
+1605050952 c:\users\ajbea\documents\mobaxterm\home\homework3test\hw3-bewlar\starter_code\mlsapp_helpers.h
+	<stdbool.h>
+	"MLStree.h"
+
+1605484680 c:\users\ajbea\documents\mobaxterm\home\homework3test\hw3-bewlar\starter_code\mlstree.h
+	<stdbool.h>
+
+1605485325 source:c:\users\ajbea\documents\mobaxterm\home\homework3test\hw3-bewlar\starter_code\mlstree.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MLStree.h"
+	"MLSapp_Helpers.h"
+
+1605484689 source:c:\users\ajbea\documents\mobaxterm\home\homework3test\hw3-bewlar\starter_code\test2_mlstree.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"MLStree.h"
+	"MLSapp_Helpers.h"
+

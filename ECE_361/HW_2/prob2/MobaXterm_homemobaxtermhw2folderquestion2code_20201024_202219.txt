@@ -1,0 +1,100 @@
+     +--------------------------------------------------------------------+
+     ¦                • MobaXterm Personal Edition v20.3 •                ¦
+     ¦              (X server, SSH client and network tools)              ¦
+     ¦                                                                    ¦
+     ¦ ? Your computer drives are accessible through the /drives path     ¦
+     ¦ ? Your DISPLAY is set to 10.231.206.85:0.0                         ¦
+     ¦ ? When using SSH, your remote DISPLAY is automatically forwarded   ¦
+     ¦ ? Each command status is specified by a special symbol (? or ?)    ¦
+     ¦                                                                    ¦
+     ¦ • Important:                                                       ¦
+     ¦ This is MobaXterm Personal Edition. The Professional edition       ¦
+     ¦ allows you to customize MobaXterm for your company: you can add    ¦
+     ¦ your own logo, your parameters, your welcome message and generate  ¦
+     ¦ either an MSI installation package or a portable executable.       ¦
+     ¦ We can also modify MobaXterm or develop the plugins you need.      ¦
+     ¦ For more information: https://mobaxterm.mobatek.net/download.html  ¦
+     +--------------------------------------------------------------------+
+
+ ? 24/10/2020 ? ? 20:17.51 ? ? /home/mobaxterm ? ls
+Desktop         HW2Folder       LauncherFolder  MyDocuments
+                                                                               ?
+
+ ? 24/10/2020 ? ? 20:17.55 ? ? /home/mobaxterm ? cd desktop
+                                                                               ?
+
+ ? /home/mobaxterm/desktop ?
+ ? 24/10/2020 ? ? 20:17.56 ? cd..
+cd..: command not found
+                                                                               ?
+
+ ? /home/mobaxterm/desktop ?
+ ? 24/10/2020 ? ? 20:17.59 ? cd ..
+                                                                               ?
+
+ ? 24/10/2020 ? ? 20:18.02 ? ? /home/mobaxterm ? cd hw2folder
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder ? ? main ?
+ ? 24/10/2020 ? ? 20:18.07 ? ls
+Question1Code  Question2Code  README.md      docs           starter_code
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder ? ? main ?
+ ? 24/10/2020 ? ? 20:18.07 ? cd question2code
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder/question2code ? ? main ?
+ ? 24/10/2020 ? ? 20:18.11 ? ls
+Q2.final       RPN.o          stackADT_LL.h
+RPN.c          stackADT_LL.c  stackADT_LL.o
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder/question2code ? ? main ?
+ ? 24/10/2020 ? ? 20:18.11 ? whoami
+ajbea
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder/question2code ? ? main ?
+ ? 24/10/2020 ? ? 20:18.16 ? gcc -Wall RPN.c stackADT_LL.c -o Q2.final
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder/question2code ? ? main ?
+ ? 24/10/2020 ? ? 20:18.22 ? ./Q2.final
+Enter an RPN expression:1 2 3 * + =
+Element top of stack is: 7
+Enter an RPN expression:5 8 * 4 9 - / =
+Element top of stack is: -8
+Enter an RPN expression:q
+Invalid input
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder/question2code ? ? main ?
+ ? 24/10/2020 ? ? 20:18.54 ? ./Q2.final
+Enter an RPN expression:5 6 7 8 9 + + + + =
+Element top of stack is: 35
+Enter an RPN expression:5 -5 -4 5 + + + =
+Element top of stack is: 4
+Enter an RPN expression:-5 -4 -3 + + + =
+
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder/question2code ? ? main ?
+ ? 24/10/2020 ? ? 20:20.07 ? ./Q2.final
+Enter an RPN expression:5 -5 -5 + + =
+Element top of stack is: 0
+Enter an RPN expression:5 5 5 + + +
+Invalid input
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder/question2code ? ? main ?
+ ? 24/10/2020 ? ? 20:20.46 ? ./Q2.final
+Enter an RPN expression:1 2 3 4 5 6 7 8 9 0 + - + - + - + - + =
+Element top of stack is: 1
+Enter an RPN expression:1 2 3 - - =
+Element top of stack is: 2
+Enter an RPN expression:
+                                                                               ?
+
+ ? /home/mobaxterm/hw2folder/question2code ? ? main ?
+ ? 24/10/2020 ? ? 20:22.14 ?
